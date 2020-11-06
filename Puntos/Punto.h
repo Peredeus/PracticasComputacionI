@@ -3,13 +3,13 @@
 
 using namespace std;
 
-class Punto2dimensiones
+class Punto2D
 {
 public:
 
-	void Posicion(float Psn_x, float Psn_y);
-	void Tras(float temp1, float temp2);
-	void Rotar(float temp1);
+	void SetPosicion(float Psn_x, float Psn_y);
+	void Trasladar(float temp1, float temp2);
+	void RotarRespectoAlOrigen(float temp1);
 	void Escalar(float temp1, float temp2);
 	float GetX();
 	float GetY();
